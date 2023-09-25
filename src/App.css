@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #121b23;
+  height: 100vh;
+  font-family: monospace;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 40px;
+
+}
+
+.container span {
+  color: #5BFFC8 ;
+}
+
+
+.game-body {
+  /* border: 1px solid white; */
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: space-around;
+  
+}
+
+
+.btn {
+  border: none;
+  width: 100px;
+  height: 50px;
+  color: #5BFFC8;
+  background: #1A2732;
+  border-radius: 30px;
+}
